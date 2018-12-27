@@ -9,3 +9,6 @@
   
 * Get more info about pod
    * kubectl describe pods hello-pod
+
+* Returns manifest for the pod
+  * kubectl get pods -o json hello-pod

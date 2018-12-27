@@ -18,3 +18,6 @@
 
 * Get to the first container of the pod
   * kubectl exec -it hello-pod sh
+
+* Logs from the first container of the pod
+  * kubectl logs hello-pod

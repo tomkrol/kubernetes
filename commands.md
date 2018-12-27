@@ -12,6 +12,9 @@
 
 * Returns manifest for the pod
   * kubectl get pods -o json hello-pod
+  
+* Get info about pods and labels
+  * kubectl get pods --show-labels
 
 * Run command in the first container of pod
   * kubectl exec hello-pod ps aux
@@ -27,3 +30,6 @@
 
 * Supported API versions
   * kubectl api-versions
+  
+* Check how many replicasets running
+  * kubectl get rs/web-rs

@@ -12,3 +12,9 @@
 
 * Returns manifest for the pod
   * kubectl get pods -o json hello-pod
+
+* Run command in the first container of pod
+  * kubectl exec hello-pod ps aux
+
+* Get to the first container of the pod
+  * kubectl exec -it hello-pod sh

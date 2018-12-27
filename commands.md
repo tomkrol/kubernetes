@@ -4,7 +4,7 @@
 * Check pods
   * kubectl get podes
 
-* Creating pods from file
+* Creating pods/ReplicaSets from file
   * kubectl create -f pod.yml
   
 * Get more info about pod

@@ -21,3 +21,9 @@
 
 * Logs from the first container of the pod
   * kubectl logs hello-pod
+
+* Kubernetes version
+  * kubectl version --output=yaml
+
+* Supported API versions
+  * kubectl api-versions

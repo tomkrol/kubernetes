@@ -46,4 +46,5 @@
 * Deleting ReplicaSet, without deleting Pods
   * kubectl delete rs/web-rs --cascade=false
 
-
+* Update config of ReplicaSet
+  * kubectl apply -f rs.yaml

@@ -33,3 +33,17 @@
   
 * Check how many replicasets running
   * kubectl get rs/web-rs
+  
+* Check if any ReplicaSet running
+  * kubectl get rs
+
+* Get all pods with namespace name
+  * kubectl get pods --show-labels
+
+* Display ReplicaSet details in yaml format
+  * kubectl get rs web-rs --output=yaml
+  
+* Deleting ReplicaSet, without deleting Pods
+  * kubectl delete rs/web-rs --cascade=false
+
+
